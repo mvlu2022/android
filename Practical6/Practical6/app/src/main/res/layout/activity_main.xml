@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bounceButton"
+        android:backgroundTint="@color/black"
+        android:textColor="#ffffff"
+        android:text="Let's Bounce"
+        android:layout_width="200dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/normalButton"
+        android:backgroundTint="@color/red"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bounceButton"
+        android:text="Normal Button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/leftToRight_Button"
+        android:backgroundTint="@color/black"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/normalButton"
+        android:text="Left to right animation"
+        android:layout_width="200dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/rightToLeft_Button"
+        android:backgroundTint="@color/black"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/leftToRight_Button"
+        android:text="Right to Left animation"
+        android:layout_width="200dp"
+        android:layout_height="80dp"/>
+
+</RelativeLayout>
